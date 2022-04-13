@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\oo\\Orientacao\\Orientacao.csproj": {}
+    "C:\\oo\\joaodeveloper\\Orientacao.csproj": {}
   },
   "projects": {
-    "C:\\oo\\Orientacao\\Orientacao.csproj": {
+    "C:\\oo\\joaodeveloper\\Orientacao.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\oo\\Orientacao\\Orientacao.csproj",
+        "projectUniqueName": "C:\\oo\\joaodeveloper\\Orientacao.csproj",
         "projectName": "Orientacao",
-        "projectPath": "C:\\oo\\Orientacao\\Orientacao.csproj",
-        "packagesPath": "C:\\Users\\Tati\\.nuget\\packages\\",
-        "outputPath": "C:\\oo\\Orientacao\\obj\\",
+        "projectPath": "C:\\oo\\joaodeveloper\\Orientacao.csproj",
+        "packagesPath": "C:\\Users\\Windows\\.nuget\\packages\\",
+        "outputPath": "C:\\oo\\joaodeveloper\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Tati\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Windows\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
