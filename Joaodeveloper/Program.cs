@@ -7,21 +7,15 @@ namespace Joaodeveloper
     {
         static void Main(string[] args)
         {
-            var carreira = new Carreira();
-            var curso = new Curso();
-            curso.Nivel = JOAODEVELOPER.ContextoDeConteudo.Enumeradores.EContextoNivel.iniciante;
-            foreach (var item in curso.Modules)
+            var artigo = new List<Artigo>();
+            artigo.Add(new Artigo("João e Mariana", "https:balta.io.com.br"));
+            foreach (var item in artigo)
             {
-
+                Console.WriteLine(item.Id);
+                Console.WriteLine(item.Title);
+                Console.WriteLine(item.Url);
             }
-            carreira.Itens.Add(new ItensDeCarreira());
-            Console.WriteLine(carreira.TotalCourses);
-
         }
-    }
-    public class Payment
-    {
-
     }
 }
 

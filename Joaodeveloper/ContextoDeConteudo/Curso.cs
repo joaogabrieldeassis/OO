@@ -5,7 +5,8 @@ namespace JOAODEVELOPER.ContextoDeConteudo
     //Inicializando o curso Com os seus devidos modulos
     public class Curso : Contexto
     {
-        public Curso()
+        public Curso(string title, string url)
+        : base(title, url)
         {
             Modules = new List<Modulo>();
         }
