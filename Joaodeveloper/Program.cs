@@ -8,7 +8,12 @@ namespace Joaodeveloper
         static void Main(string[] args)
         {
             var carreira = new Carreira();
+            var curso = new Curso();
+            curso.Nivel = JOAODEVELOPER.ContextoDeConteudo.Enumeradores.EContextoNivel.iniciante;
+            foreach (var item in curso.Modules)
+            {
 
+            }
         }
     }
     public class Payment
