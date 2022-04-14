@@ -14,6 +14,9 @@ namespace Joaodeveloper
             {
 
             }
+            carreira.Itens.Add(new ItensDeCarreira());
+            Console.WriteLine(carreira.TotalCourses);
+
         }
     }
     public class Payment
