@@ -4,11 +4,19 @@ namespace JOAODEVELOPER.ContextoDeConteudo
     {
         public ItensDeCarreira(int order, string title, string description, Curso curso)
         {
+            if (curso == null)
+            {
+                throw new Exception("O curso não pode ser vazio ");
+            }
+            {
+
+            }
             Order = order;
             Title = title;
             Description = description;
             Curso = curso;
         }
+
         public int Order { get; set; }
         public string Title { get; set; }
         public string Description { get; set; }

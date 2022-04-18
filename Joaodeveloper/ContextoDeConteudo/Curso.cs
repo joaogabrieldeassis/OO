@@ -5,8 +5,8 @@ namespace JOAODEVELOPER.ContextoDeConteudo
     //Inicializando o curso Com os seus devidos modulos
     public class Curso : Contexto
     {
-        public Curso(string title, string url)
-        : base(title, url)
+        public Curso(string title, string url, int nivel)
+        : base(title, url,nivel)
         {
             Modules = new List<Modulo>();
         }
@@ -14,6 +14,7 @@ namespace JOAODEVELOPER.ContextoDeConteudo
         public IList<Modulo> Modules { get; set; }
         public int DurationInMinutes { get; set; }
         public EContextoNivel Nivel { get; set; }
+        
 
     }
 

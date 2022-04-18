@@ -2,8 +2,8 @@ namespace JOAODEVELOPER.ContextoDeConteudo
 {
     public class Artigo : Contexto
     {
-        public Artigo(string title, string url)
-        : base(title, url)
+        public Artigo(string title, string url, int nivel)
+        : base(title, url, nivel)
         {
 
         }
