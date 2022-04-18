@@ -1,6 +1,8 @@
+using JOAODEVELOPER.ContextoCompartilhado;
+
 namespace JOAODEVELOPER.ContextoDeConteudo
 {
-     public class Modulo
+    public class Modulo : Base
     {
         public Modulo()
         {

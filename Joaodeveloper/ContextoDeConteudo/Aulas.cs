@@ -1,8 +1,9 @@
+using JOAODEVELOPER.ContextoCompartilhado;
 using JOAODEVELOPER.ContextoDeConteudo.Enumeradores;
 
 namespace JOAODEVELOPER.ContextoDeConteudo
 {
-    public class Lecture
+    public class Lecture : Base
     {
         public int Order { get; set; }
         public string Title { get; set; }

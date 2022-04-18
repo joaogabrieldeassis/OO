@@ -19,5 +19,6 @@ namespace JOAODEVELOPER.ContextoDeConteudo
             }
         }
 
+        public object Curso { get; internal set; }
     }
 }

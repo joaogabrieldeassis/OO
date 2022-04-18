@@ -1,4 +1,5 @@
 ﻿using System;
+using JOAODEVELOPER.ContextoDeAssinatura;
 using JOAODEVELOPER.ContextoDeConteudo;
 
 namespace Joaodeveloper
@@ -20,6 +21,7 @@ namespace Joaodeveloper
             var corseOOP = new Curso("Curso de Orientação a objetos", "Especialista em OOP", 1);
             var corseCharp = new Curso("Curso de Charp", "Especialista em Charp", 2);
             var corseAspNet = new Curso("Curso de ASP.NET", "Especialista em ASP.NET", 3);
+
             var carreiras = new List<Carreira>();
             var carreira = new Carreira("Carreira de .NET", "https: dotnet", 1);
             var itensDeCarreira = new ItensDeCarreira(3, "Finalizando Carreira do .net", "", corseAspNet);
@@ -37,10 +39,16 @@ namespace Joaodeveloper
                     Console.WriteLine($"{item2.Order} - {item2.Title}");
                     Console.WriteLine(item.Title);
                     Console.WriteLine(item.Nivel);
+                    foreach (var notification in item.Notifications)
+                    {
+                        Console.WriteLine($"{notification.Property} - {notification.Messagem}");
+                    }
                 }
             }
 
-
+            var paypalAssinatura = new PayPalAssinaturas();
+            var ustudent = new Ustudent();
+            ustudent.CriarAssinatura(paypalAssinatura);
         }
     }
 }

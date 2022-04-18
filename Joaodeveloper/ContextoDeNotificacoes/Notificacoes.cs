@@ -13,5 +13,10 @@ namespace JOAODEVELOPER.ContextoDeNotificacoes
             Property = property;
             Messagem = messagem;
         }
+
+        internal static bool Any()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

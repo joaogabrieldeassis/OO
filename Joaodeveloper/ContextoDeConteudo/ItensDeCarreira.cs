@@ -1,15 +1,15 @@
+using JOAODEVELOPER.ContextoCompartilhado;
+using JOAODEVELOPER.ContextoDeNotificacoes;
+
 namespace JOAODEVELOPER.ContextoDeConteudo
 {
-    public class ItensDeCarreira
+    public class ItensDeCarreira : Base
     {
         public ItensDeCarreira(int order, string title, string description, Curso curso)
         {
             if (curso == null)
             {
-                throw new Exception("O curso não pode ser vazio ");
-            }
-            {
-
+                AddNotification(new Notificacoes("Curso", "Curso inavalido"));
             }
             Order = order;
             Title = title;
